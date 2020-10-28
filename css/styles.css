@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 0.25rem;
+    margin-top: 90px;
+    background-color: rgb(12, 12, 12);
+    transition: background-color 2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    border: solid 1px transparent;
+    box-shadow: #fc0069c7 10px 10px 40px 20px ;
+}
+
+.wrapper {
+    width: 80%;
+    background-color: #030303;
+    border: transparent;
+    border-radius: 2.5px;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+/**Screen**/
+
+#screen-wrapper {
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+}
+
+
+/**-Buttons Panel**/
+
+#button-panel-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Special Functions Panel Group*/
+
+#special-functions-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.spec-funct {
+    width: 18%;
+    padding: 0.2rem;
+    margin: 0.5rem
+}
+
+
+/*Numbers and Operators Panel Group*/
+
+#operands-and-numbers-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Numbers Panel Sub-Group*/
+
+#numbers-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.numbers {
+    padding: 0.75rem;
+}
+
+/*Operands Panel Sub-Group*/
+
+#operands-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.operands {
+    padding: 0.75rem;
+}
+
+
+
+/**Credits-Wrapper**/
+
+.credits {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    padding: 0.2rem;
+}
+
+.twitter-wrapper {
+    display: flex;
+    justify-content: space-around;
+    order: 1;
+    margin-left: 0.2rem;
+}
+
+.fa-twitter, .fa-github {
+    color: #fc0069c7;
+}
+
+.github-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/***LIGHT MODE**/
+
+.body-class {
+    display: flex;
+    justify-content: center;
+    padding: 0.25rem;
+    margin-top: 90px;
+    background-color: rgb(216, 95, 95);
+    transition: background-color 3s;
+}
+    
+.container-class {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff020f;
+    border: solid 1px transparent;
+    box-shadow: rgba(0, 0, 0, 0.781)10px 10px 40px 20px;
+}
+
+.wrapper-class {
+    width: 80%;
+    background-color: #ff020f;
+    border: transparent;
+    border-radius: 2.5px;
+    margin-top: 1rem;
+    padding: 1rem;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/fb477d7a7c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            
+            <!--Screen-->
+                <div id="screen-wrapper">
+                    <div id="screen" class="display"></div>
+                </div>
+
+            <!--Buttons Panel-->
+                <div id="button-panel-wrapper">
+                
+                    <!--Special Functions Panel Group-->
+                    <div id="special-functions-wrapper">
+                        <button id="button" class="spec-funct" value="log">LOG</button>
+                        <button id="button" class="spec-funct" value="Sqrt">SQRT</button>
+                        <button id="button" class="spec-funct" value="x**2">SQR</button>
+                        <button id="button" class="spec-funct" value="Pi">PI</button>
+                    </div>
+
+                   <!--Numbers and Operators Panel Group-->
+                    <div id="operands-and-numbers-wrapper">
+
+                         <!--Numbers Panel Sub-Group-->
+                        <div id="numbers-wrapper">
+                            <button id="button" class="numbers" value="9">9</button>
+                            <button id="button" class="numbers" value="8">8</button>
+                            <button id="button" class="numbers" value="7">7</button>
+                            <button id="button" class="numbers" value="6">6</button>
+                            <button id="button" class="numbers" value="5">5</button>
+                            <button id="button" class="numbers" value="4">4</button>
+                            <button id="button" class="numbers" value="3">3</button>
+                            <button id="button" class="numbers" value="2">2</button>
+                            <button id="button" class="numbers" value="1">1</button>
+                            <button id="button" class="numbers" value="0">0</button>
+                            <button id="button" class="numbers point-dot" value=".">.</button>
+                            <button id="button" class="numbers cls" value="Clear screen" type="reset">CE</button>
+                        </div>
+
+                        <!--Operands Panel Sub-Group-->
+                        <div id="operands-wrapper">
+                            <button id="button" class="operands" value="+">+</button>
+                            <button id="button" class="operands" value="-">-</button>
+                            <button id="button" class="operands" value="/">/</button>
+                            <button id="button" class="operands" value="*">*</button>
+                            <button id="button" class="operands" value="Ans">Ans</button>
+                            <button id="button" class="operands" value="=">=</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!--Credits-Wrapper-->
+        <div class="credits">
+            <div class="twitter-wrapper">
+                <span>
+                    <i class="fab fa-twitter"></i> 
+                </span>
+                <a href="https://twitter.com/scudus_the_dev" class="social">@scudus_the_dev</a>
+            </div>
+            <div class="github-wrapper">
+                <span>
+                    <i class="fab fa-github"></i>
+                </span>
+                <a href="https://github.com/Adekunle6021023" class="social">@Adekunle6021023</a>
+            </div>
+        </div>
+    </div>
+    <script src="../Javascript-Calculator/js/script.js"></script>
+</body>
+</html>
