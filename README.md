@@ -1,2 +1,2 @@
-# Javascript-Calculator
- Simple javascript calculator
+# CSS-Calculator
+ Simple css calculator: No functionalities #CSSArt
